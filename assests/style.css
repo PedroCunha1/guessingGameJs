@@ -1,0 +1,144 @@
+
+button{
+  height: 75px;
+  margin-top: 15%;
+  margin-right: 50px;
+  
+}
+
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 500;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+.resultado{
+    font-family: 'Mitr',sans-serif;
+    color:#fff;
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    color:#fff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Mitr',sans-serif;
+    position: relative;
+}
+body{
+    background-color:#504a4b;
+    text-align: center;
+}
+input{
+    width: 200px;
+    height: 200px;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Mitr',sans-serif;
+    background-color:#504a4b;
+    color: #fff;
+    border-color: #fff;
+    border-width: 10px;
+    border-radius: 2%;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    caret-color: transparent;
+}
+input:focus{
+    pointer-events: block;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+    
+div{
+    text-align: center;
+    margin-top: 163px;
+}
+p{
+    font-family: 'Mitr',sans-serif;
+    color:#fff;
+    font-size: 55px;
+    top: 60px;
+    font-weight: bold;
+}
+.body, .flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.social-links {
+	display: flex;
+}
+
+.social-btn {
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #333;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	background: white;
+	margin: 5px;
+	transition: 1s;
+}
+
+.social-btn span {
+	width: 0px;
+	overflow: hidden;
+	transition: 1s;
+	text-align: center;
+}
+
+.social-btn:hover {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.social-btn:hover span {
+	padding: 2px;
+	width: max-content;
+}
+
+#twitter svg {
+	fill: #1da1f2;
+}
+
+#linkedin svg {
+	fill: #0e76a8;
+}
+
+#github {
+	fill: #333;
+}
