@@ -22,7 +22,7 @@ function chances(input){
         document.getElementById("tentativas").innerHTML = "VOCÊ ACERTOU";
         setTimeout(function() {
             window.location='guess.html';
-        }, 2000);
+        }, 1300);
     }else if(input<randomNumber){
         console.log("errou");
         tentativas--;
@@ -45,7 +45,7 @@ function finalizar(tentativas){
         document.getElementById("tentativas").innerHTML = "FIM DO JOGO";
         setTimeout(function() {
             window.location='guess.html';
-        }, 3000);
+        }, 1300);
         
     }
 }
