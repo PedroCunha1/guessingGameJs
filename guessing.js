@@ -20,6 +20,7 @@ function chances(input){
         tentativasUsadas++;
         document.getElementById("resultado").innerHTML = "TENTATIVAS USADAS " + tentativasUsadas; 
         document.getElementById("tentativas").innerHTML = "VOCÊ ACERTOU";
+        tentativasUsadas=tentativasUsadas;
         setTimeout(function() {
             window.location='guess.html';
         }, 1300);
@@ -29,6 +30,10 @@ function chances(input){
         tentativasUsadas++;
         document.getElementById("resultado").innerHTML = "O NÚMERO DIGITADO É MENOR QUE O SORTEADO";
         document.getElementById("tentativas").innerHTML = tentativas + " TENTATIVAS";
+        setTimeout(function() {
+            document.getElementById("enter").value = "";;
+        }, 370);
+        
         finalizar(tentativas);
     }else{
         console.log("errou");
@@ -36,6 +41,9 @@ function chances(input){
         tentativasUsadas++;
         document.getElementById("resultado").innerHTML = "O NÚMERO DIGITADO É MAIOR QUE O SORTEADO";
         document.getElementById("tentativas").innerHTML = tentativas + " TENTATIVAS";
+        setTimeout(function() {
+            document.getElementById("enter").value = "";;
+        }, 370);
     }
 
 }
